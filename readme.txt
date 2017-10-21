@@ -1,6 +1,4 @@
-Thanks for downloading this theme!
+A Pen created at CodePen.io. You can find this one at http://codepen.io/abisz/pen/qaEOEm.
 
-Theme Name: Bell
-Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+ CSS implementation of dribble sketch for training purposes
+original design: https://dribbble.com/shots/1980532-Timeline-Profile/

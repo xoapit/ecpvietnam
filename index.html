@@ -1,723 +1,748 @@
+﻿<!--
+   Author: W3layouts
+   Author URL: http://w3layouts.com
+   License: Creative Commons Attribution 3.0 Unported
+   License URL: http://creativecommons.org/licenses/by/3.0/
+   -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Bell Bootstrap 4 Theme</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-    
-    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-    <meta property="og:title" content="">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:description" content="">
-    
-    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-  
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
-    
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
-    
-    <!-- =======================================================
-      Theme Name: Bell
-      Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-      Author: BootstrapMade.com
-      Author URL: https://bootstrapmade.com
-    ======================================================= -->
-  </head>
-
-  <body>
-    <!-- Page Content
-    ================================================== -->
-    <!-- Hero -->
-
-    <section class="hero">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-12">
-            <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="img/logo.png"></a>
-          </div>
-        </div>
-
-        <div class="col-md-12">
-          <h1>
-            A theme with personality
-          </h1>
-
-          <p class="tagline">
-            This is a powerful theme with some great features that you can use in your future projects.
-          </p>
-          <a class="btn btn-full" href="#about">Get Started Now</a>
-        </div>
+   <head>
+      <title>ECP Vietnam</title>
+      <!-- Meta tag Keywords -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="keywords" content="Education Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+      <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+         function hideURLbar(){ window.scrollTo(0,1); } 
+      </script>
+      <!-- Meta tag Keywords -->
+      <!-- css files -->
+      <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="stylesheet" href="css/style2.css">
+      <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+      <!-- //css files -->
+      <!-- online-fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,600i,700,800,900|Muli:200,200i,300,300i,400,400i,600,700i|Quicksand:300,400,500,700|Raleway:100,100i,200i,300,400,500,500i,700,800,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=vietnamese" rel="stylesheet">
+      <!-- js -->
+      <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+      <!-- //js -->
+      <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+      <script src="js/jquery.chocolat.js"></script>
+      <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+      <!--light-box-files -->
+      <script>
+         $(function() {
+         	$('.gallery-grid a').Chocolat();
+         });
+      </script>
+      <!-- //js -->
+      <script src="js/responsiveslides.min.js"></script>
+      <script>
+         $(function () {
+         	$("#slider").responsiveSlides({
+         		auto: true,
+         		pager:false,
+         		nav: true,
+         		speed: 1000,
+         		namespace: "callbacks",
+         		before: function () {
+         			$('.events').append("<li>before event fired.</li>");
+         		},
+         		after: function () {
+         			$('.events').append("<li>after event fired.</li>");
+         		}
+         	});
+         });
+      </script>
+      <!-- start-smoth-scrolling -->
+      <script type="text/javascript" src="js/move-top.js"></script>
+      <script type="text/javascript" src="js/easing.js"></script>
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {
+         	$(".scroll").click(function(event){		
+         		event.preventDefault();
+         		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+         	});
+         });
+      </script>
+      <!-- start-smoth-scrolling -->
+   </head>
+   <body>
+      <div class="header" id="home">
+         <div class="logo" style="margin-top: 20px; left: 20px; position: fixed; z-index: 3;">
+               <img src="images/logo.png" width="80px" height="40px" />
+         </div>
+         <!-- navigation -->
+         <div class="ban-top-con">
+            <div class="top_nav_left">
+               <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                     <!-- Brand and toggle get grouped for better mobile display -->
+                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                     </div>
+                     <!-- Collect the nav links, forms, and other content for toggling -->
+                     <div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav menu__list">
+                           <li class="active menu__item menu__item--current"><a class="menu__link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                           <li class=" menu__item"><a class="menu__link scroll" href="#about">About us</a></li>
+                           <li class=" menu__item"><a class="menu__link scroll" href="#management">Management</a></li>
+                           <li class=" menu__item"><a class="menu__link scroll" href="#activities">Activities</a></li>
+                           <li class=" menu__item"><a class="menu__link scroll" href="#faculties">Faculties</a></li>
+                           <li class=" menu__item"><a class="menu__link scroll" href="#contact">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+         <!-- //navigation -->
+         <!-- Slider -->
+         <div class="slider">
+            <div class="callbacks_container">
+               <ul class="rslides" id="slider">
+                  <li>
+                     <div class="slider-img">
+                        <img src="images/bg2.jpg" class="img-responsive" alt="education">
+                     </div>
+                     <div class="slider-info text-center">
+                        <h3>Share to be shared</h3>
+                        <p>English charity project is where useful knowleadge is shared. 
+                           <br />
+                           Your improvement in English speaking skills is what can be seen.
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img">
+                        <img src="images/bg3.jpg" class="img-responsive" alt="education">
+                     </div>
+                     <div class="slider-info">
+                        <h3>Education</h3>
+                        <p>The purpose of education is to replace   an empty mind with an open one.</p>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img">
+                        <img src="images/bg1.jpg" class="img-responsive" alt="education">
+                     </div>
+                     <div class="slider-info text-center">
+                        <h3>Share to be shared</h3>
+                        <p>English charity project is where useful knowleadge is shared. 
+                           Your improvement in English speaking skills is what can be seen.
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img">
+                        <img src="images/bg4.jpg" class="img-responsive" alt="education">
+                     </div>
+                     <div class="slider-info">
+                        <h3>Education</h3>
+                        <p>The purpose of education is to replace   an empty mind with an open one.</p>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img">
+                        <img src="images/bg5.jpg" class="img-responsive" alt="education">
+                     </div>
+                     <div class="slider-info">
+                        <h3>Share to be shared</h3>
+                        <p>The goal of education is the advancement of knowledge and the dissemination of truth.</p>
+                     </div>
+                     </li
+               </ul>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+         <!-- //Slider -->
       </div>
-      
-    </section>
-    <!-- /Hero -->
-    
-  <!-- Header -->
-  <header id="header">
-    <div class="container">
-    
-      <div id="logo" class="pull-left">
-        <a href="index.html"><img src="img/logo-nav.png" alt="" title="" /></img></a>
-        <!-- Uncomment below if you prefer to use a text image -->
-        <!--<h1><a href="#hero">Bell</a></h1>-->
+      <!--main-content-->
+      <div class="agile-main" id="about">
+         <div class="container">
+            <!--about-->
+            <div class="about row" style="height: 100%;; padding: 20px;">
+               <h2>about us</h2>
+               <h4  style="text-align:justify"><b>English charity project</b> là dự án dạy tiếng Anh tình nguyện cho nhiều đối tượng, tập trung chủ yếu vào sinh viên, học sinh; đây là dự án lần đầu tiên được tổ chức tại thành phố Đà Nẵng. Chúng tôi, ban tổ chức đồng thời là những sinh viên đã trải qua những bỡ ngỡ ban đầu khi học tiếng Anh ở môi trường đại học, hiểu rất rõ những khó khăn mà các bạn sinh viên phải vượt qua trong suốt hành trình học tiếng Anh. Dự án dạy tiếng Anh tình nguyện bắt đầu manh nha sau những va vấp ban đầu đó. Mục đích của dự án, theo những người làm chương trình, là giảng dạy tiếng Anh cơ bản cho người mới bắt đầu bằng một giáo trình dạy tiếng Anh căn bản đơn giản dễ học, tạo được động lực và hứng khởi để có thể duy trì trong suốt thời gian học tiếng Anh sau này. Để làm được điều này, chúng tôi cần sự hỗ trợ từ nhiều phía, theo quan điểm của chúng tôi, tập trung vào 3 đối tượng chính.</h4>
+               <img src="images/su.jpg" alt="sucess" style="margin-top: 27px; border-radius: 3px; box-shadow: 0 0 15px #777;">
+               <p style="text-align:justify">Người dạy, là những cá nhân có kinh nghiệm, có năng lực giảng dạy tốt trong lĩnh vực tiếng Anh, muốn hoạt động trong lĩnh vực tình nguyện.
+               </p>
+               <p style="text-align:justify">Tình nguyện viên, đóng vai trò là người tổ chức và kết nối giữa những người có nhu cầu học và những người muốn làm công việc tình nguyện.
+               </p>
+               <p style="text-align:justify">Học viên, là những người mong muốn học tiếng Anh nhưng chưa có điều kiện hoặc quan trọng nhất là động lực để duy trì khi học tiếng Anh.
+               </p>
+               <hr/>
+               <p style="text-align:justify">Qua chương trình này, chúng tôi mong muốn đem lại lợi ích cho cả 3 phía, người dạy, tình nguyện viên và học viên, đặc biệt là những người chưa có kiến thức nền tảng trong tiếng Anh.
+               </p>
+            </div>
+            <div class="clearfix"></div>
+            <!--//about-->
+         </div>
       </div>
-        
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-      
-      <nav class="nav social-nav pull-right hidden-sm-down">
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-      </nav>
-    </div>
-  </header><!-- #header -->
-  
-    <!-- About -->
-
-    <section class="about" id="about">
-      <div class="container text-center">
-        <h2>
-          About Bell Theme
-        </h2>
-
-        <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. Menandri temporibus an duo.
-        </p>
-
-        <div class="row stats-row">
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">232</span> Satisfied Customers
+      <!--meet our management-->
+      <div class="team" id="management">
+         <div class="container">
+            <h3>CƠ CẤU TỔ CHỨC</h3>
+            <p>Được hình thành và phát triển bởi 3 ban.</p>
+            <div class="row">
+               <div class="w3grid col-xs-12 col-md-4">
+                  <img src="images/t1.jpg" alt="team1" class="img1-w3l">
+                  <h5>HUỲNH CÔNG - LD</h5>
+                  <p>Ban Nhân Sự - Human Resource Department</p>
+                  <div class="socialw3-icons">
+                     <i class=" so1 fa fa-facebook" aria-hidden="true"></i>
+                     <i class=" so2 fa fa-twitter" aria-hidden="true"></i>
+                     <i class=" so3 fa fa-google" aria-hidden="true"></i>
+                  </div>
+               </div>
+               <div class="w3grid col-xs-12 col-md-4">
+                  <img src="images/t2.jpg" alt="team1" class="img2-w3l">
+                  <h5>HƯƠNG LAN - LD</h5>
+                  <p>Ban Chuyên Môn - Education Department</p>
+                  <div class="socialw3-icons">
+                     <i class=" so1 fa fa-facebook" aria-hidden="true"></i>
+                     <i class=" so2 fa fa-twitter" aria-hidden="true"></i>
+                     <i class=" so3 fa fa-google" aria-hidden="true"></i>
+                  </div>
+               </div>
+               <div class="w3grid col-xs-12 col-md-4">
+                  <img src="images/t3.jpg" alt="team1" class="img3-w3l">
+                  <h5>Thế Thanh - LD</h5>
+                  <p>Ban Truyền Thông - Communication Department</p>
+                  <div class="socialw3-icons">
+                     <i class=" so1 fa fa-facebook" aria-hidden="true"></i>
+                     <i class=" so2 fa fa-twitter" aria-hidden="true"></i>
+                     <i class=" so3 fa fa-google" aria-hidden="true"></i>
+                  </div>
+               </div>
             </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">79</span> Released Projects
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">1,463</span> Hours Of Support
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">15</span> Hard Workers
-            </div>
-          </div>
-        </div>
+            <div class="clearfix"></div>
+         </div>
       </div>
-    </section>
-    <!-- /About -->
-    <!-- Parallax -->
-
-    <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
-      <h2>
-        Welcome to a perfect theme
-      </h2>
-
-      <p>
-        This is the most powerful theme with thousands of options that you have never seen before.
-      </p>
-      <img alt="Bell - A perfect theme" class="gadgets-img hidden-md-down" src="img/gadgets.png">
-    </div>
-    <!-- /Parallax -->
-    <!-- Features -->
-
-    <section class="features" id="features">
-      <div class="container">
-        <h2 class="text-center">
-          Features
-        </h2>
-
-        <div class="row">
-          <div class="feature-col col-lg-4 col-xs-12">
-            <div class="card card-block text-center">
-              <div>
-                <div class="feature-icon">
-                  <span class="fa fa-rocket"></span>
-                </div>
-              </div>
-
-              <div>
-                <h3>
-                  Custom Design
-                </h3>
-
-                <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                </p>
-              </div>
+      <!--//meet our management-->
+      <!--welcome-->
+      <div class="w3l-welcome">
+         <div class="container" style="padding-bottom: 100px;">
+            <div class=" agile-welcome">
+               <div class="text-w3">
+                  <h4>welcome to ECP Vietnam</h4>
+                  <p>Share to be shared</p>
+               </div>
+               <div class="grids">
+                  <div class="grid">
+                     <div class="icons">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                     </div>
+                     <div class="text">
+                        <h5>SKILLED PROFESSORS</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
+                  </div>
+                  <div class="grid">
+                     <div class="icons">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                     </div>
+                     <div class="text">
+                        <h5>Career Growth</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
+                  </div>
+                  <div class="grid">
+                     <div class="icons">
+                        <i class="fa fa-table" aria-hidden="true"></i>
+                     </div>
+                     <div class="text">
+                        <h5>BIG LIBRARY</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
+                  </div>
+                  <div class="grid">
+                     <div class="icons">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                     </div>
+                     <div class="text">
+                        <h5>WELL EQUIPPED LABS</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="w3-img">
+                  <img src="images/man2.jpg" alt="image" />
+               </div>
+               <div class="clearfix"></div>
             </div>
-          </div>
-
-          <div class="feature-col col-lg-4 col-xs-12">
-            <div class="card card-block text-center">
-              <div>
-                <div class="feature-icon">
-                  <span class="fa fa-envelope"></span>
-                </div>
-              </div>
-
-              <div>
-                <h3>
-                  Responsive Layout
-                </h3>
-
-                <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="feature-col col-lg-4 col-xs-12">
-            <div class="card card-block text-center">
-              <div>
-                <div class="feature-icon">
-                  <span class="fa fa-bell"></span>
-                </div>
-              </div>
-
-              <div>
-                <h3>
-                  Innovative Ideas
-                </h3>
-
-                <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="feature-col col-lg-4 col-xs-12">
-            <div class="card card-block text-center">
-              <div>
-                <div class="feature-icon">
-                  <span class="fa fa-database"></span>
-                </div>
-              </div>
-
-              <div>
-                <h3>
-                  Good Documentation
-                </h3>
-
-                <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="feature-col col-lg-4 col-xs-12">
-            <div class="card card-block text-center">
-              <div>
-                <div class="feature-icon">
-                  <span class="fa fa-cutlery"></span>
-                </div>
-              </div>
-
-              <div>
-                <h3>
-                  Excellent Features
-                </h3>
-
-                <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="feature-col col-lg-4 col-xs-12">
-            <div class="card card-block text-center">
-              <div>
-                <div class="feature-icon">
-                  <span class="fa fa-dashboard"></span>
-                </div>
-              </div>
-
-              <div>
-                <h3>
-                  Retina Ready
-                </h3>
-
-                <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+         </div>
       </div>
-    </section>
-    <!-- /Features -->
-    <!-- Call to Action -->
+      <!--//welcome-->
 
-    <section class="cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 col-sm-12 text-lg-left text-center">
-            <h2>
-              Call to Action Section
-            </h2>
+      <!--time line-->
+      <div class="row text-center">
+      	<h2 class="text-primary"><b>Timeline</b></h2>
+      </div>
+      <section class="timeline">
+  <div class="container">
+    <div class="timeline-item">
+      <div class="timeline-img"></div>
 
-            <p>
-              Lorem ipsum dolor sit amet, nec ad nisl mandamus imperdiet, ut corpora cotidieque cum. Et brute iracundia his, est eu idque dictas gubergren
+      <div class="timeline-content js--fadeInLeft">
+        <h2>ECP Course 1</h2>
+        <div class="date">1 MAY 2013</div>
+        <p>The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.</p>
+      </div>
+    </div> 
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+        	<img src="images/tl2.jpg"/>
+          <h2>ECP Course 2</h2>
+        </div>
+        <div class="date">25 MAY 13</div>
+        <p>The rain may be falling hard outside 
+But your smile makes it alright
+I’m so glad that you’re my friend
+I know our friendship will never end.</p>
+      </div>
+
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">3 JUN 2016</div>
+        <h2>ECP Course 3</h2>
+        <blockquote>Learn to be happy with what you have while you pursue all that you dream.</blockquote>
+      </div>
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInRight">
+        <h2>ECP Course 4</h2>
+        <div class="date">22 JUN 2016</div>
+        <p>We are all travelers in the wilderness of the world, and the best we can find in our travels is an honest friend.</p>
+      </div>
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInLeft">
+        <div class="timeline-img-header">
+        	<img src="images/tl5.jpg"/>
+          <h2>ECP Course 5</h2>
+        </div>
+        <div class="date">10 JULY 2016</div>
+        <p>Sometimes I want to shout to the whole world how lucky I am to have you as my friend but sometimes I want to hush, afraid that somebody might take you away from me.</p>
+      </div>
+    </div>   
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+        	<img src="images/tl6.jpg"/>
+          <h2>ECP Course 6</h2>
+        </div>
+        <div class="date">30 Sept 2016</div>
+        <p>If you live to be a hundred, I want to live to be a hundred minus one day. So that I’ll never have to live without you.</p>
+      </div>
+    </div>  
+
+
+   <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight">
+        <div class="timeline-img-header">
+        	<img src="images/tl7.jpg"/>
+          <h2>ECP Course 7</h2>
+        </div>
+        <div class="date">10 JULY 2017</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+      </div>
+    </div>   
+
+  </div>
+</section>
+
+      <!--time line-->
+
+      <!--activities-->
+      <div class="gallery" id="activities">
+         <div class="container">
+            <div class="gallery-main">
+               <div class="gallery-top">
+                  <h3>our activities</h3>
+               </div>
+               <div class="gallery-bott">
+                  <div class="col-md-4 col1 gallery-grid">
+                     <a href="images/g1.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <figure class="effect-bubba">
+                           <img class="img-responsive" src="images/g1.jpg" alt="">
+                           <figcaption>
+                              <h4 class="gal">ECP Vietnam</h4>
+                              <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="col-md-4 col1 gallery-grid">
+                     <a href="images/g2.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <figure class="effect-bubba">
+                           <img class="img-responsive" src="images/g2.jpg" alt="">
+                           <figcaption>
+                              <h4 class="gal">ECP Vietnam</h4>
+                              <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="col-md-4 col1 gallery-grid">
+                     <a href="images/g3.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <figure class="effect-bubba">
+                           <img class="img-responsive" src="images/g3.jpg" alt="">
+                           <figcaption>
+                              <h4 class="gal">ECP Vietnam</h4>
+                              <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="col-md-4 col1 gallery-grid">
+                     <a href="images/g4.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <figure class="effect-bubba">
+                           <img class="img-responsive" src="images/g4.jpg" alt="">
+                           <figcaption>
+                              <h4 class="gal">ECP Vietnam</h4>
+                              <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="col-md-4 col1 gallery-grid">
+                     <a href="images/g5.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <figure class="effect-bubba">
+                           <img class="img-responsive" src="images/g5.jpg" alt="">
+                           <figcaption>
+                              <h4>ECP Vietnam</h4>
+                              <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div class="col-md-4 col1 gallery-grid">
+                     <a href="images/g6.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <figure class="effect-bubba">
+                           <img class="img-responsive" src="images/g6.jpg" alt="">
+                           <figcaption>
+                              <h4 class="gal">ECP Vietnam</h4>
+                              <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                           </figcaption>
+                        </figure>
+                     </a>
+                  </div>
+                  <div>
+                     <div class="col-md-4 col1 gallery-grid">
+                        <a href="images/g7.jpg" class="b-link-stripe b-animate-go  thickbox">
+                           <figure class="effect-bubba">
+                              <img class="img-responsive" src="images/g7.jpg" alt="">
+                              <figcaption>
+                                 <h4 class="gal">ECP Vietnam</h4>
+                                 <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                              </figcaption>
+                           </figure>
+                        </a>
+                     </div>
+                     <div class="col-md-4 col1 gallery-grid">
+                        <a href="images/g8.jpg" class="b-link-stripe b-animate-go  thickbox">
+                           <figure class="effect-bubba">
+                              <img class="img-responsive" src="images/g8.jpg" alt="">
+                              <figcaption>
+                                 <h4 class="gal">ECP Vietnam</h4>
+                                 <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                              </figcaption>
+                           </figure>
+                        </a>
+                     </div>
+                     <div class="col-md-4 col1 gallery-grid">
+                        <a href="images/g9.jpg" class="b-link-stripe b-animate-go  thickbox">
+                           <figure class="effect-bubba">
+                              <img class="img-responsive" src="images/g9.jpg" alt="">
+                              <figcaption>
+                                 <h4 class="gal">ECP Vietnam</h4>
+                                 <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                              </figcaption>
+                           </figure>
+                        </a>
+                     </div>
+                  </div>
+                  <div style="background: red">
+                     <div class="col-md-4 col1 gallery-grid">
+                        <a href="images/g10.jpg" class="b-link-stripe b-animate-go  thickbox">
+                           <figure class="effect-bubba">
+                              <img class="img-responsive" src="images/g10.jpg" alt="">
+                              <figcaption>
+                                 <h4 class="gal">ECP Vietnam</h4>
+                                 <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                              </figcaption>
+                           </figure>
+                        </a>
+                     </div>
+                     <div class="col-md-4 col1 gallery-grid">
+                        <a href="images/g11.jpg" class="b-link-stripe b-animate-go  thickbox">
+                           <figure class="effect-bubba">
+                              <img class="img-responsive" src="images/g11.jpg" alt="">
+                              <figcaption>
+                                 <h4 class="gal">ECP Vietnam</h4>
+                                 <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                              </figcaption>
+                           </figure>
+                        </a>
+                     </div>
+                     <div class="col-md-4 col1 gallery-grid">
+                        <a href="images/g12.jpg" class="b-link-stripe b-animate-go  thickbox">
+                           <figure class="effect-bubba">
+                              <img class="img-responsive" src="images/g12.jpg" alt="">
+                              <figcaption>
+                                 <h4 class="gal">ECP Vietnam</h4>
+                                 <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                              </figcaption>
+                           </figure>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="clearfix"> </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--//activities-->
+      <!-- opening -->
+      <div class="agile-open">
+         <div class="open-head">
+            <h6>ECP course 7 opening in</h6>
+            <p>“English charity project is where useful knowleadge is shared. 
+               <br />
+               Your improvement in English speaking skills is what can be seen.” 
             </p>
-          </div>
-
-          <div class="col-lg-3 col-sm-12 text-lg-right text-center">
-            <a class="btn btn-ghost" href="#">Buy This Theme</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Call to Action -->
-    <!-- Portfolio -->
-
-    <section class="portfolio" id="portfolio">
-      <div class="container text-center">
-        <h2>
-          Portfolio
-        </h2>
-
-        <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, Per nihil dicant commodo an.
-        </p>
-      </div>
-
-      <div class="portfolio-grid">
-        <div class="row">
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-1.jpg">
-              <div class="portfolio-over">
-                <div>
-                  <h3 class="card-title">
-                    The Dude Rockin'
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-2.jpg">
-              <div class="portfolio-over">
-                <div>
-                  <h3 class="card-title">
-                    The Dude Rockin'
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-3.jpg">
-              <div class="portfolio-over">
-                <div>
-                  <h3 class="card-title">
-                    The Dude Rockin'
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-4.jpg">
-              <div class="portfolio-over">
-                <div>
-                  <h3 class="card-title">
-                    The Dude Rockin'
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </div></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-5.jpg">
-              <div class="portfolio-over">
-                <div>
-                  <h3 class="card-title">
-                    The Dude Rockin'
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-6.jpg">
-              <div class="portfolio-over">
-                <div>
-                  <h3 class="card-title">
-                    The Dude Rockin'
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-7.jpg">
-              <div class="portfolio-over">
-                <div>
-                  <h3 class="card-title">
-                    The Dude Rockin'
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-8.jpg">
-              <div class="portfolio-over">
-                <div>
-                  <h3 class="card-title">
-                    The Dude Rockin'
-                  </h3>
-
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </div></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Portfolio -->
-    <!-- Team -->
-
-    <section class="team" id="team">
-      <div class="container">
-        <h2 class="text-center">
-          Meet our team
-        </h2>
-
-        <div class="row">
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="img/team-1.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                </nav>
-
-                <p>
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="img/team-2.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                </nav>
-
-                <p>
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="img/team-3.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                </nav>
-
-                <p>
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div></a>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="img/team-4.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                </nav>
-
-                <p>
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Team -->
-    <!-- @component: footer -->
-
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-title">Contact Us</h2>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-lg-3 offset-lg-2">
-            <div class="info">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
-              
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-              
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
-              
-            </div>
-          </div>
-          
-          <div class="col-lg-5">
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-      
-    <footer class="site-footer">
-      <div class="bottom">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-6 col-xs-12 text-lg-left text-center">
-              <p class="copyright-text">
-                © BELL Theme
-              </p>
-              <div class="credits">
-                  <!-- 
-                  All the links in the footer should remain intact. 
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
-                -->
-                <a href="https://bootstrapmade.com/">Bootstrap Themes</a> by BootstrapMade
-              </div>
-            </div>
+         </div>
+         <!-- Countdown-timer -->
+         <div class="examples">
+            <div class="simply-countdown-losange" id="simply-countdown-losange"></div>
+         </div>
+         <div class="clearfix"></div>
+         <!-- //Countdown-timer -->
+         <!-- Custom-JavaScript-File-Links -->
+         <!-- Countdown-Timer-JavaScript -->
+         <script src="js/simplyCountdown.js"></script>
+         <script>
+            var d = new Date(new Date().getTime() + 48 * 120 * 120 * 2000);
             
-            <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a href="index.html">Home</a>
-                </li>
-
-                <li class="list-inline-item">
-                  <a href="#about">About Us</a>
-                </li>
-
-                <li class="list-inline-item">
-                  <a href="#features">Features</a>
-                </li>
-
-                <li class="list-inline-item">
-                  <a href="#portfolio">Portfolio</a>
-                </li>
-
-                <li class="list-inline-item">
-                  <a href="#team">Team</a>
-                </li>
-
-                <li class="list-inline-item">
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
+            // default example
+            simplyCountdown('.simply-countdown-one', {
+            	year: d.getFullYear(),
+            	month: d.getMonth() + 1,
+            	day: d.getDate()
+            });
             
-          </div>
-        </div>
+            // inline example
+            simplyCountdown('.simply-countdown-inline', {
+            	year: d.getFullYear(),
+            	month: d.getMonth() + 1,
+            	day: d.getDate(),
+            	inline: true
+            });
+            
+            //jQuery example
+            $('#simply-countdown-losange').simplyCountdown({
+            	year: d.getFullYear(),
+            	month: d.getMonth() + 1,
+            	day: d.getDate(),
+            	enableUtc: false
+            });
+         </script>
+         <!-- //Countdown-Timer-JavaScript -->
+         <!-- //Custom-JavaScript-File-Links -->
       </div>
-    </footer>
-    <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a> <!-- JavaScript
+      <!--// opening -->
 
+      <!--faculty-->
+      <div class="w3-faculty" id="faculties">
+         <div class="container">
+            <div class="faculty-head">
+               <h5>our great faculties</h5>
+               <p>“Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers.” </p>
+            </div>
+            <div class="main-faculty">
+               <div class="f1 col-md-3 faculty1">
+                  <ul class="demo-2 effect">
+                     <li>
+                        <h3 class="zero">COMPUTER SCIENCE</h3>
+                        <p class="zero">Lorem ipsum dolor sit amet.</p>
+                     </li>
+                     <li><img class="top" src="images/f1.jpg" alt=""/></li>
+                  </ul>
+                  <h4>John Roy</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="social-icons">
+                     <i class="s1 fa fa-facebook" aria-hidden="true"></i>
+                     <i class="s2 fa fa-twitter" aria-hidden="true"></i>
+                     <i class="s3 fa fa-google" aria-hidden="true"></i>
+                  </div>
+               </div>
+               <div class="f2 col-md-3 faculty1">
+                  <ul class="demo-2 effect">
+                     <li>
+                        <h3 class="zero">COMMUNICATION SKILLS</h3>
+                        <p class="zero">Lorem ipsum dolor sit amet.</p>
+                     </li>
+                     <li><img class="top" src="images/f6.jpg" alt=""/></li>
+                  </ul>
+                  <h4>Jesse Roy</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="social-icons">
+                     <i class=" s1 fa fa-facebook" aria-hidden="true"></i>
+                     <i class=" s2 fa fa-twitter" aria-hidden="true"></i>
+                     <i class=" s3 fa fa-google" aria-hidden="true"></i>
+                  </div>
+               </div>
+               <div class="f3 col-md-3 faculty1">
+                  <ul class="demo-2 effect">
+                     <li>
+                        <h3 class="zero">GENERAL SCIENCE</h3>
+                        <p class="zero">Lorem ipsum dolor sit amet.</p>
+                     </li>
+                     <li><img class="top" src="images/f3.jpg" alt=""/></li>
+                  </ul>
+                  <h4>Xena Wob</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="social-icons">
+                     <i class=" s1 fa fa-facebook" aria-hidden="true"></i>
+                     <i class=" s2 fa fa-twitter" aria-hidden="true"></i>
+                     <i class=" s3 fa fa-google" aria-hidden="true"></i>
+                  </div>
+               </div>
+               <div class="f4 col-md-3 faculty1">
+                  <ul class="demo-2 effect">
+                     <li>
+                        <h3 class="zero">MATHEMATICS</h3>
+                        <p class="zero">Lorem ipsum dolor sit amet.</p>
+                     </li>
+                     <li><img class="top" src="images/f4.jpg" alt=""/></li>
+                  </ul>
+                  <h4>Victor Hi</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="social-icons">
+                     <a href="https://www.facebook.com/ecpvietnam.org/">
+                     <i class="s1 fa fa-facebook" aria-hidden="true"></i>
+                     </a>
+                     <a href="mailto:ecpvietnam.org@gmail.com">
+                     <i class="s2 fa fa-twitter" aria-hidden="true"></i>
+                     </a>
+                     <i class="s3 fa fa-google" aria-hidden="true"></i>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+            </div>
+         </div>
+      </div>
+      <!--//faculty-->
 
-    <!-- Required JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/tether/js/tether.min.js"></script>
-    <script src="lib/stellar/stellar.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/easing/easing.js"></script>
-    <script src="lib/stickyjs/sticky.js"></script>
-    <script src="lib/parallax/parallax.js"></script>
-    <script src="lib/lockfixed/lockfixed.min.js"></script>
-    
-    <!-- Template Specisifc Custom Javascript File -->
-    <script src="js/custom.js"></script>
-    
-    <script src="contactform/contactform.js"></script>
-    
-  </body>
+      <!--contact-->
+      <div class="agile-contact" id="contact">
+         <div class="left-contact">
+            <h6>LIÊN HỆ</h6>
+            <ul>
+               <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:ecpvietnam.org@gmail.com">ecpvietnam.org@gmail.com</a></li>
+               <li><i class="fa fa-phone" aria-hidden="true"></i>+84 123456789</li>
+               <li><i class="fa fa-map-marker" aria-hidden="true"></i>Da Nang, Viet Nam</li>
+            </ul>
+         </div>
+         <div class="right-contact">
+            <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36478.92619745432!2d108.19601911720527!3d16.046029869875312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0xfc14e3a044436487!2zRGEgTmFuZywgSOG6o2kgQ2jDonUsIERhIE5hbmcsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1508598500187" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+               <form action="#" method="post">
+                  <input placeholder="Name" name="Name" class="name" type="text" required=""><br>
+                  <input placeholder="E-mail" name="Name" class="name" type="text" required=""><br>
+                  <textarea placeholder="Message"></textarea><br>
+                  <input type="submit" value="send message">
+               </form>
+            </div>
+         </div>
+         <div class="clearfix"></div>
+      </div>
+      <!--//contact-->
+      <!--//main-content-->
+      <!--footer-->
+      <div class="w3l-footer">
+         <div class="container">
+            <div class="left-w3">
+               <a href="#">ECP Vietnam</a>
+            </div>
+            <div class="right-social">
+               <i class="fa fa-facebook-square" aria-hidden="true"></i>
+               <i class="fa fa-twitter-square" aria-hidden="true"></i>
+               <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+            </div>
+            <div class="clearfix"></div>
+            <div class="footer-nav">
+               <ul>
+                  <li><a class="menu__link scroll" href="#home">home</a></li>
+                  <li><a class="menu__link scroll" href="#about">about</a></li>
+                  <li><a class="menu__link scroll" href="#management">management</a></li>
+                  <li><a class="menu__link scroll" href="#activities">activities</a></li>
+                  <li><a class="menu__link scroll" href="#faculties">faculties</a></li>
+                  <li><a class="menu__link scroll" href="#contact">contact</a></li>
+               </ul>
+            </div>
+            <div class="copyright-agile">
+               <p>&copy; 2017 ECP Vietnam. All rights reserved | Design by <a href="http://fb.com/Xoapit">Xoapit</a></p>
+            </div>
+         </div>
+      </div>
+      <!--//footer-->
+      <!-- smooth scrolling -->
+      <script type="text/javascript">
+         $(document).ready(function() {
+         /*
+         	var defaults = {
+         	containerID: 'toTop', // fading element id
+         	containerHoverID: 'toTopHover', // fading element hover id
+         	scrollSpeed: 1200,
+         	easingType: 'linear' 
+         	};
+         */								
+         $().UItoTop({ easingType: 'easeOutQuart' });
+         });
+      </script>
+      <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+      <!-- //smooth scrolling -->
+
+     
+
+<script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
+
+    <script src="js/index.js"></script>
+   </body>
 </html>
