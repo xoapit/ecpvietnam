@@ -558,7 +558,7 @@ a.menu__link {
 
 /*-- welcome--*/
 .w3l-welcome{
-	background:url('../images/CL.jpg') no-repeat fixed;
+	background:url('https://i.imgur.com/vPNYOT9.jpg') no-repeat fixed;
 	background-size: cover;
 	min-height: 398px;
 }
@@ -784,7 +784,7 @@ figure.effect-bubba:hover p {
 
 /*-- opening--*/
 .agile-open{
-	background:url('../images/cou.jpg') no-repeat fixed;
+	background:url('https://i.imgur.com/DquTm0d.jpg') no-repeat fixed;
 	background-size: cover;
 	padding:70px 0px;
 	text-align:center;

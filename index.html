@@ -19,10 +19,10 @@
       <!-- Meta tag Keywords -->
       <!-- css files -->
       <link rel="shortcut icon" href="favicon.ico" />
-      <link rel="stylesheet" href="css/style2.css">
-      <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+      <link rel="stylesheet" href="css/style2.css?verson=1.0">
+      <link href="css/style.css?verson=1.0" rel="stylesheet" type="text/css" media="all">
+      <link href="css/bootstrap.min.css?verson=1.0" rel="stylesheet" type="text/css" media="all">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
       <!-- //css files -->
       <!-- online-fonts -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,600i,700,800,900|Muli:200,200i,300,300i,400,400i,600,700i|Quicksand:300,400,500,700|Raleway:100,100i,200i,300,400,500,500i,700,800,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=vietnamese" rel="stylesheet">
@@ -35,26 +35,26 @@
       <!--light-box-files -->
       <script>
          $(function() {
-         	$('.gallery-grid a').Chocolat();
+            $('.gallery-grid a').Chocolat();
          });
       </script>
       <!-- //js -->
       <script src="js/responsiveslides.min.js"></script>
       <script>
          $(function () {
-         	$("#slider").responsiveSlides({
-         		auto: true,
-         		pager:false,
-         		nav: true,
-         		speed: 1000,
-         		namespace: "callbacks",
-         		before: function () {
-         			$('.events').append("<li>before event fired.</li>");
-         		},
-         		after: function () {
-         			$('.events').append("<li>after event fired.</li>");
-         		}
-         	});
+            $("#slider").responsiveSlides({
+               auto: true,
+               pager:false,
+               nav: true,
+               speed: 1000,
+               namespace: "callbacks",
+               before: function () {
+                  $('.events').append("<li>before event fired.</li>");
+               },
+               after: function () {
+                  $('.events').append("<li>after event fired.</li>");
+               }
+            });
          });
       </script>
       <!-- start-smoth-scrolling -->
@@ -62,10 +62,10 @@
       <script type="text/javascript" src="js/easing.js"></script>
       <script type="text/javascript">
          jQuery(document).ready(function($) {
-         	$(".scroll").click(function(event){		
-         		event.preventDefault();
-         		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-         	});
+            $(".scroll").click(function(event){    
+               event.preventDefault();
+               $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
          });
       </script>
       <!-- start-smoth-scrolling -->
@@ -73,7 +73,7 @@
    <body>
       <div class="header" id="home">
          <div class="logo" style="margin-top: 20px; left: 20px; position: fixed; z-index: 3;">
-               <img src="images/logo.png" width="80px" height="40px" />
+            <img src="images/logo.png" width="80px" height="40px" />
          </div>
          <!-- navigation -->
          <div class="ban-top-con">
@@ -112,7 +112,7 @@
                <ul class="rslides" id="slider">
                   <li>
                      <div class="slider-img">
-                        <img src="images/bg2.jpg" class="img-responsive" alt="education">
+                        <img src="https://i.imgur.com/n2reXwF.jpg" class="img-responsive" alt="education">
                      </div>
                      <div class="slider-info text-center">
                         <h3>Share to be shared</h3>
@@ -124,7 +124,7 @@
                   </li>
                   <li>
                      <div class="slider-img">
-                        <img src="images/bg3.jpg" class="img-responsive" alt="education">
+                        <img src="https://i.imgur.com/AZSrdpE.jpg" class="img-responsive" alt="education">
                      </div>
                      <div class="slider-info">
                         <h3>Education</h3>
@@ -133,7 +133,7 @@
                   </li>
                   <li>
                      <div class="slider-img">
-                        <img src="images/bg1.jpg" class="img-responsive" alt="education">
+                        <img src="https://i.imgur.com/pALS0r1.jpg" class="img-responsive" alt="education">
                      </div>
                      <div class="slider-info text-center">
                         <h3>Share to be shared</h3>
@@ -144,7 +144,7 @@
                   </li>
                   <li>
                      <div class="slider-img">
-                        <img src="images/bg4.jpg" class="img-responsive" alt="education">
+                        <img src="https://i.imgur.com/W3Wpmf7.jpg" class="img-responsive" alt="education">
                      </div>
                      <div class="slider-info">
                         <h3>Education</h3>
@@ -153,7 +153,7 @@
                   </li>
                   <li>
                      <div class="slider-img">
-                        <img src="images/bg5.jpg" class="img-responsive" alt="education">
+                        <img src="https://i.imgur.com/XxDd3Fb.jpg" class="img-responsive" alt="education">
                      </div>
                      <div class="slider-info">
                         <h3>Share to be shared</h3>
@@ -173,7 +173,7 @@
             <div class="about row" style="height: 100%;; padding: 20px;">
                <h2>about us</h2>
                <h4  style="text-align:justify"><b>English charity project</b> là dự án dạy tiếng Anh tình nguyện cho nhiều đối tượng, tập trung chủ yếu vào sinh viên, học sinh; đây là dự án lần đầu tiên được tổ chức tại thành phố Đà Nẵng. Chúng tôi, ban tổ chức đồng thời là những sinh viên đã trải qua những bỡ ngỡ ban đầu khi học tiếng Anh ở môi trường đại học, hiểu rất rõ những khó khăn mà các bạn sinh viên phải vượt qua trong suốt hành trình học tiếng Anh. Dự án dạy tiếng Anh tình nguyện bắt đầu manh nha sau những va vấp ban đầu đó. Mục đích của dự án, theo những người làm chương trình, là giảng dạy tiếng Anh cơ bản cho người mới bắt đầu bằng một giáo trình dạy tiếng Anh căn bản đơn giản dễ học, tạo được động lực và hứng khởi để có thể duy trì trong suốt thời gian học tiếng Anh sau này. Để làm được điều này, chúng tôi cần sự hỗ trợ từ nhiều phía, theo quan điểm của chúng tôi, tập trung vào 3 đối tượng chính.</h4>
-               <img src="images/su.jpg" alt="sucess" style="margin-top: 27px; border-radius: 3px; box-shadow: 0 0 15px #777;">
+               <img src="https://i.imgur.com/Y3sHNSa.jpg" alt="sucess" style="margin-top: 27px; border-radius: 3px; box-shadow: 0 0 15px #777;background-size:cover; ">
                <p style="text-align:justify">Người dạy, là những cá nhân có kinh nghiệm, có năng lực giảng dạy tốt trong lĩnh vực tiếng Anh, muốn hoạt động trong lĩnh vực tình nguyện.
                </p>
                <p style="text-align:justify">Tình nguyện viên, đóng vai trò là người tổ chức và kết nối giữa những người có nhu cầu học và những người muốn làm công việc tình nguyện.
@@ -195,7 +195,7 @@
             <p>Được hình thành và phát triển bởi 3 ban.</p>
             <div class="row">
                <div class="w3grid col-xs-12 col-md-4">
-                  <img src="images/t1.jpg" alt="team1" class="img1-w3l">
+                  <img src="https://i.imgur.com/45HortD.jpg" alt="team1" class="img1-w3l">
                   <h5>HUỲNH CÔNG - LD</h5>
                   <p>Ban Nhân Sự - Human Resource Department</p>
                   <div class="socialw3-icons">
@@ -205,7 +205,7 @@
                   </div>
                </div>
                <div class="w3grid col-xs-12 col-md-4">
-                  <img src="images/t2.jpg" alt="team1" class="img2-w3l">
+                  <img src="https://i.imgur.com/bvRAVnl.jpg" alt="team1" class="img2-w3l">
                   <h5>HƯƠNG LAN - LD</h5>
                   <p>Ban Chuyên Môn - Education Department</p>
                   <div class="socialw3-icons">
@@ -215,7 +215,7 @@
                   </div>
                </div>
                <div class="w3grid col-xs-12 col-md-4">
-                  <img src="images/t3.jpg" alt="team1" class="img3-w3l">
+                  <img src="https://i.imgur.com/ySBgJkQ.jpg" alt="team1" class="img3-w3l">
                   <h5>Thế Thanh - LD</h5>
                   <p>Ban Truyền Thông - Communication Department</p>
                   <div class="socialw3-icons">
@@ -237,157 +237,127 @@
                   <h4>welcome to ECP Vietnam</h4>
                   <p>Share to be shared</p>
                </div>
-               <div class="grids">
-                  <div class="grid">
-                     <div class="icons">
+               <div class="grids" style="text-align: justify">
+                  <div class="grid row">
+                     <div class="icons paddingLeft">
                         <i class="fa fa-book" aria-hidden="true"></i>
                      </div>
                      <div class="text">
-                        <h5>SKILLED PROFESSORS</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h5>Lịch sử hình thành</h5>
+                        <p>ECP VIETNAM được thành lập vào năm 2013. Mục đích của dự án là tạo nên một cộng đồng giáo dục ngoại ngữ có chất lượng, bình đẳng, do sinh viên dạy sinh viên. 
+</p>
                      </div>
                   </div>
-                  <div class="grid">
-                     <div class="icons">
-                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                     </div>
-                     <div class="text">
-                        <h5>Career Growth</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                     </div>
-                  </div>
-                  <div class="grid">
-                     <div class="icons">
+                  <div class="grid row">
+                     <div class="icons paddingLeft">
                         <i class="fa fa-table" aria-hidden="true"></i>
                      </div>
                      <div class="text">
-                        <h5>BIG LIBRARY</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h5>Mục tiêu</h5>
+                        <p>SỐ LƯỢNG KHOÁ HỌC: Mở 2 khoá học Tiếng Anh miễn phí trong 1 năm.</p>
+                        <p>NGƯỜI DẠY: Có môi trường để thực hành kĩ năng sư phạm.</p>
+                        <p>HỌC VIÊN: Nắm được kiến thức cơ bản và kĩ năng thuyết trình, làm việc nhóm.</p>
+                        <p>TÌNH NGUYỆN VIÊN: Có môi trường tốt hơn để rèn luyện các kĩ năng xã hội của bản thân</p>
                      </div>
                   </div>
-                  <div class="grid">
-                     <div class="icons">
-                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                  <div class="grid row">
+                     <div class="icons paddingLeft">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                      </div>
                      <div class="text">
-                        <h5>WELL EQUIPPED LABS</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h5>SỨ MỆNH</h5>
+                        <p>Cung cấp các khoá học tiếng Anh miễn phí. Phát triển kiến thức và kĩ năng cho học viên và tình nguyện viên. Xây dựng cộng đồng tiếng Anh vững mạnh
+</p>
                      </div>
                   </div>
                </div>
                <div class="w3-img">
-                  <img src="images/man2.jpg" alt="image" />
+                  <img src="https://i.imgur.com/RrOSsVX.jpg" alt="image" />
                </div>
                <div class="clearfix"></div>
             </div>
          </div>
       </div>
       <!--//welcome-->
-
       <!--time line-->
-      <div class="row text-center">
-      	<h2 class="text-primary"><b>Timeline</b></h2>
+       <div class="row text-center" style="background: #fefefe">
+         <h2 class="text-primary"><b>Timeline</b></h2>
       </div>
-      <section class="timeline">
-  <div class="container">
-    <div class="timeline-item">
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInLeft">
-        <h2>ECP Course 1</h2>
-        <div class="date">1 MAY 2013</div>
-        <p>The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.</p>
-      </div>
-    </div> 
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
-        	<img src="images/tl2.jpg"/>
-          <h2>ECP Course 2</h2>
-        </div>
-        <div class="date">25 MAY 13</div>
-        <p>The rain may be falling hard outside 
-But your smile makes it alright
-I’m so glad that you’re my friend
-I know our friendship will never end.</p>
-      </div>
-
-    </div>   
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInLeft">
-        <div class="date">3 JUN 2016</div>
-        <h2>ECP Course 3</h2>
-        <blockquote>Learn to be happy with what you have while you pursue all that you dream.</blockquote>
-      </div>
-    </div>   
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content js--fadeInRight">
-        <h2>ECP Course 4</h2>
-        <div class="date">22 JUN 2016</div>
-        <p>We are all travelers in the wilderness of the world, and the best we can find in our travels is an honest friend.</p>
-      </div>
-    </div>   
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInLeft">
-        <div class="timeline-img-header">
-        	<img src="images/tl5.jpg"/>
-          <h2>ECP Course 5</h2>
-        </div>
-        <div class="date">10 JULY 2016</div>
-        <p>Sometimes I want to shout to the whole world how lucky I am to have you as my friend but sometimes I want to hush, afraid that somebody might take you away from me.</p>
-      </div>
-    </div>   
-
-    <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
-        	<img src="images/tl6.jpg"/>
-          <h2>ECP Course 6</h2>
-        </div>
-        <div class="date">30 Sept 2016</div>
-        <p>If you live to be a hundred, I want to live to be a hundred minus one day. So that I’ll never have to live without you.</p>
-      </div>
-    </div>  
-
-
-   <div class="timeline-item">
-
-      <div class="timeline-img"></div>
-
-      <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="timeline-img-header">
-        	<img src="images/tl7.jpg"/>
-          <h2>ECP Course 7</h2>
-        </div>
-        <div class="date">10 JULY 2017</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-      </div>
-    </div>   
-
-  </div>
-</section>
-
+      <section class="timeline" style="background: #fefefe">
+         <div class="container">
+            <div class="timeline-item ">
+               <div class="timeline-img"></div>
+               <div class="timeline-content  timeline-card js--fadeInLeft">
+                  <div class="timeline-img-header">
+                     <img src="https://i.imgur.com/csg9g46.jpg"/>
+                     <h2 class="blue" style="background: #3498db; opacity: 0.8;">ECP Course 1</h2>
+                  </div>
+                  <div class="date">12/2013 - 3/2014</div>
+               </div>
+            </div>
+            <div class="timeline-item">
+               <div class="timeline-img"></div>
+               <div class="timeline-content timeline-card js--fadeInRight">
+                  <div class="timeline-img-header bg-red" style="background: #e74c3c">
+                     <div class="date">3/2014 - 6/2014</div>
+                     <img src="https://i.imgur.com/OjXJzV1.jpg"/>
+                     <h2 class="blue" style="background: #3498db; opacity: 0.8;">ECP Course 2</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="timeline-item">
+               <div class="timeline-img"></div>
+               <div class="timeline-content  timeline-card js--fadeInLeft">
+                  <div class="timeline-img-header">
+                     <div class="date">9/2014 - 12/2014</div>
+                     <img src="https://i.imgur.com/9zTQP2N.jpg"/>
+                     <h2 class="blue" style="background: #3498db; opacity: 0.8;">ECP Course 3</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="timeline-item">
+               <div class="timeline-img"></div>
+               <div class="timeline-content timeline-card js--fadeInRight">
+                  <div class="timeline-img-header">
+                     <img src="https://i.imgur.com/T111dAR.jpg"/>
+                     <h2 class="blue" style="background: #3498db; opacity: 0.8;">ECP Course 4</h2>
+                  </div>
+                  <div class="date">10/2015 - 12/2015</div>
+               </div>
+            </div>
+            <div class="timeline-item">
+               <div class="timeline-img"></div>
+               <div class="timeline-content timeline-card js--fadeInLeft">
+                  <div class="timeline-img-header"  style="background: #e74c3c">
+                     <img src="https://i.imgur.com/YOlLTCA.jpg"/>
+                     <h2 class="blue" style="background: #3498db; opacity: 0.8;">ECP Course 5</h2>
+                  </div>
+                  <div class="date">3/2016 - 5/2016</div>
+               </div>
+            </div>
+            <div class="timeline-item">
+               <div class="timeline-img"></div>
+               <div class="timeline-content timeline-card js--fadeInRight">
+                  <div class="timeline-img-header"  style="background: #e74c3c">
+                     <img src="https://i.imgur.com/NXS4pBM.jpg"/>
+                     <h2 style="background: #3498db; opacity: 0.8;">ECP Course 6</h2>
+                  </div>
+                  <div class="date">9/2016 - 12/2016</div>
+               </div>
+            </div>
+            <div class="timeline-item">
+               <div class="timeline-img"></div>
+               <div class="timeline-content timeline-card js--fadeInRight">
+                  <div class="timeline-img-header">
+                     <img src="https://i.imgur.com/pwUeMsz.jpg"/>
+                     <h2 style="background: #3498db; opacity: 0.8;">ECP Course 7</h2>
+                  </div>
+                  <div class="date">9/2017</div>
+               </div>
+            </div>
+         </div>
+      </section>
       <!--time line-->
-
       <!--activities-->
       <div class="gallery" id="activities">
          <div class="container">
@@ -397,9 +367,9 @@ I know our friendship will never end.</p>
                </div>
                <div class="gallery-bott">
                   <div class="col-md-4 col1 gallery-grid">
-                     <a href="images/g1.jpg" class="b-link-stripe b-animate-go  thickbox">
+                     <a href="https://i.imgur.com/4bNKYlV.jpg" class="b-link-stripe b-animate-go  thickbox">
                         <figure class="effect-bubba">
-                           <img class="img-responsive" src="images/g1.jpg" alt="">
+                           <img class="img-responsive" src="https://i.imgur.com/4bNKYlV.jpg" alt="">
                            <figcaption>
                               <h4 class="gal">ECP Vietnam</h4>
                               <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -408,9 +378,9 @@ I know our friendship will never end.</p>
                      </a>
                   </div>
                   <div class="col-md-4 col1 gallery-grid">
-                     <a href="images/g2.jpg" class="b-link-stripe b-animate-go  thickbox">
+                     <a href="https://i.imgur.com/A3oeDEN.jpg" class="b-link-stripe b-animate-go  thickbox">
                         <figure class="effect-bubba">
-                           <img class="img-responsive" src="images/g2.jpg" alt="">
+                           <img class="img-responsive" src="https://i.imgur.com/A3oeDEN.jpg" alt="">
                            <figcaption>
                               <h4 class="gal">ECP Vietnam</h4>
                               <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -419,9 +389,9 @@ I know our friendship will never end.</p>
                      </a>
                   </div>
                   <div class="col-md-4 col1 gallery-grid">
-                     <a href="images/g3.jpg" class="b-link-stripe b-animate-go  thickbox">
+                     <a href="https://i.imgur.com/yHugiuN.jpg" class="b-link-stripe b-animate-go  thickbox">
                         <figure class="effect-bubba">
-                           <img class="img-responsive" src="images/g3.jpg" alt="">
+                           <img class="img-responsive" src="https://i.imgur.com/yHugiuN.jpg" alt="">
                            <figcaption>
                               <h4 class="gal">ECP Vietnam</h4>
                               <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -430,9 +400,9 @@ I know our friendship will never end.</p>
                      </a>
                   </div>
                   <div class="col-md-4 col1 gallery-grid">
-                     <a href="images/g4.jpg" class="b-link-stripe b-animate-go  thickbox">
+                     <a href="https://i.imgur.com/OzCV4pZ.jpg" class="b-link-stripe b-animate-go  thickbox">
                         <figure class="effect-bubba">
-                           <img class="img-responsive" src="images/g4.jpg" alt="">
+                           <img class="img-responsive" src="https://i.imgur.com/OzCV4pZ.jpg" alt="">
                            <figcaption>
                               <h4 class="gal">ECP Vietnam</h4>
                               <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -441,9 +411,9 @@ I know our friendship will never end.</p>
                      </a>
                   </div>
                   <div class="col-md-4 col1 gallery-grid">
-                     <a href="images/g5.jpg" class="b-link-stripe b-animate-go  thickbox">
+                     <a href="https://i.imgur.com/Q0pCNXU.jpg" class="b-link-stripe b-animate-go  thickbox">
                         <figure class="effect-bubba">
-                           <img class="img-responsive" src="images/g5.jpg" alt="">
+                           <img class="img-responsive" src="https://i.imgur.com/Q0pCNXU.jpg" alt="">
                            <figcaption>
                               <h4>ECP Vietnam</h4>
                               <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -452,9 +422,9 @@ I know our friendship will never end.</p>
                      </a>
                   </div>
                   <div class="col-md-4 col1 gallery-grid">
-                     <a href="images/g6.jpg" class="b-link-stripe b-animate-go  thickbox">
+                     <a href="https://i.imgur.com/sPHDqzV.jpg" class="b-link-stripe b-animate-go  thickbox">
                         <figure class="effect-bubba">
-                           <img class="img-responsive" src="images/g6.jpg" alt="">
+                           <img class="img-responsive" src="https://i.imgur.com/sPHDqzV.jpg" alt="">
                            <figcaption>
                               <h4 class="gal">ECP Vietnam</h4>
                               <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -464,9 +434,9 @@ I know our friendship will never end.</p>
                   </div>
                   <div>
                      <div class="col-md-4 col1 gallery-grid">
-                        <a href="images/g7.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <a href="https://i.imgur.com/ml2Nlb0.jpg" class="b-link-stripe b-animate-go  thickbox">
                            <figure class="effect-bubba">
-                              <img class="img-responsive" src="images/g7.jpg" alt="">
+                              <img class="img-responsive" src="https://i.imgur.com/ml2Nlb0.jpg" alt="">
                               <figcaption>
                                  <h4 class="gal">ECP Vietnam</h4>
                                  <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -475,9 +445,9 @@ I know our friendship will never end.</p>
                         </a>
                      </div>
                      <div class="col-md-4 col1 gallery-grid">
-                        <a href="images/g8.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <a href="https://i.imgur.com/xMV63E4.jpg" class="b-link-stripe b-animate-go  thickbox">
                            <figure class="effect-bubba">
-                              <img class="img-responsive" src="images/g8.jpg" alt="">
+                              <img class="img-responsive" src="https://i.imgur.com/xMV63E4.jpg" alt="">
                               <figcaption>
                                  <h4 class="gal">ECP Vietnam</h4>
                                  <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -486,9 +456,9 @@ I know our friendship will never end.</p>
                         </a>
                      </div>
                      <div class="col-md-4 col1 gallery-grid">
-                        <a href="images/g9.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <a href="https://i.imgur.com/oD1RALM.jpg" class="b-link-stripe b-animate-go  thickbox">
                            <figure class="effect-bubba">
-                              <img class="img-responsive" src="images/g9.jpg" alt="">
+                              <img class="img-responsive" src="https://i.imgur.com/oD1RALM.jpg" alt="">
                               <figcaption>
                                  <h4 class="gal">ECP Vietnam</h4>
                                  <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -499,9 +469,9 @@ I know our friendship will never end.</p>
                   </div>
                   <div style="background: red">
                      <div class="col-md-4 col1 gallery-grid">
-                        <a href="images/g10.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <a href="https://i.imgur.com/jDnT6Fg.jpg" class="b-link-stripe b-animate-go  thickbox">
                            <figure class="effect-bubba">
-                              <img class="img-responsive" src="images/g10.jpg" alt="">
+                              <img class="img-responsive" src="https://i.imgur.com/jDnT6Fg.jpg" alt="">
                               <figcaption>
                                  <h4 class="gal">ECP Vietnam</h4>
                                  <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -510,9 +480,9 @@ I know our friendship will never end.</p>
                         </a>
                      </div>
                      <div class="col-md-4 col1 gallery-grid">
-                        <a href="images/g11.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <a href="https://i.imgur.com/UFMZQqg.jpg" class="b-link-stripe b-animate-go  thickbox">
                            <figure class="effect-bubba">
-                              <img class="img-responsive" src="images/g11.jpg" alt="">
+                              <img class="img-responsive" src="https://i.imgur.com/UFMZQqg.jpg" alt="">
                               <figcaption>
                                  <h4 class="gal">ECP Vietnam</h4>
                                  <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -521,9 +491,9 @@ I know our friendship will never end.</p>
                         </a>
                      </div>
                      <div class="col-md-4 col1 gallery-grid">
-                        <a href="images/g12.jpg" class="b-link-stripe b-animate-go  thickbox">
+                        <a href="https://i.imgur.com/jYeDG1J.jpg" class="b-link-stripe b-animate-go  thickbox">
                            <figure class="effect-bubba">
-                              <img class="img-responsive" src="images/g12.jpg" alt="">
+                              <img class="img-responsive" src="https://i.imgur.com/jYeDG1J.jpg" alt="">
                               <figcaption>
                                  <h4 class="gal">ECP Vietnam</h4>
                                  <p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
@@ -557,38 +527,37 @@ I know our friendship will never end.</p>
          <!-- Countdown-Timer-JavaScript -->
          <script src="js/simplyCountdown.js"></script>
          <script>
-            var d = new Date(new Date().getTime() + 48 * 120 * 120 * 2000);
+            var d = new Date("Dec 5, 2017 12:00:00");
             
             // default example
             simplyCountdown('.simply-countdown-one', {
-            	year: d.getFullYear(),
-            	month: d.getMonth() + 1,
-            	day: d.getDate()
+               year: d.getFullYear(),
+               month: d.getMonth() + 1,
+               day: d.getDate()
             });
             
             // inline example
             simplyCountdown('.simply-countdown-inline', {
-            	year: d.getFullYear(),
-            	month: d.getMonth() + 1,
-            	day: d.getDate(),
-            	inline: true
+               year: d.getFullYear(),
+               month: d.getMonth() + 1,
+               day: d.getDate(),
+               inline: true
             });
             
             //jQuery example
             $('#simply-countdown-losange').simplyCountdown({
-            	year: d.getFullYear(),
-            	month: d.getMonth() + 1,
-            	day: d.getDate(),
-            	enableUtc: false
+               year: d.getFullYear(),
+               month: d.getMonth() + 1,
+               day: d.getDate(),
+               enableUtc: false
             });
          </script>
          <!-- //Countdown-Timer-JavaScript -->
          <!-- //Custom-JavaScript-File-Links -->
       </div>
       <!--// opening -->
-
       <!--faculty-->
-      <div class="w3-faculty" id="faculties">
+      <!-- <div class="w3-faculty" id="faculties" hidden="">
          <div class="container">
             <div class="faculty-head">
                <h5>our great faculties</h5>
@@ -666,15 +635,15 @@ I know our friendship will never end.</p>
                <div class="clearfix"></div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!--//faculty-->
-
       <!--contact-->
       <div class="agile-contact" id="contact">
          <div class="left-contact">
             <h6>LIÊN HỆ</h6>
             <ul>
                <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:ecpvietnam.org@gmail.com">ecpvietnam.org@gmail.com</a></li>
+               <li><i class="fa fa-facebook" aria-hidden="true"></i><a href="https://www.facebook.com/ecpvietnam.org/">ECP Vietnam</a></li>
                <li><i class="fa fa-phone" aria-hidden="true"></i>+84 123456789</li>
                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Da Nang, Viet Nam</li>
             </ul>
@@ -696,27 +665,13 @@ I know our friendship will never end.</p>
       <!--//main-content-->
       <!--footer-->
       <div class="w3l-footer">
-         <div class="container">
-            <div class="left-w3">
-               <a href="#">ECP Vietnam</a>
-            </div>
-            <div class="right-social">
+         <div class="container" style="padding: 15px; color: #eeeeee;">
+            <div class="pull-right">
                <i class="fa fa-facebook-square" aria-hidden="true"></i>
                <i class="fa fa-twitter-square" aria-hidden="true"></i>
                <i class="fa fa-google-plus-square" aria-hidden="true"></i>
             </div>
-            <div class="clearfix"></div>
-            <div class="footer-nav">
-               <ul>
-                  <li><a class="menu__link scroll" href="#home">home</a></li>
-                  <li><a class="menu__link scroll" href="#about">about</a></li>
-                  <li><a class="menu__link scroll" href="#management">management</a></li>
-                  <li><a class="menu__link scroll" href="#activities">activities</a></li>
-                  <li><a class="menu__link scroll" href="#faculties">faculties</a></li>
-                  <li><a class="menu__link scroll" href="#contact">contact</a></li>
-               </ul>
-            </div>
-            <div class="copyright-agile">
+            <div class="text-center">
                <p>&copy; 2017 ECP Vietnam. All rights reserved | Design by <a href="http://fb.com/Xoapit">Xoapit</a></p>
             </div>
          </div>
@@ -726,23 +681,19 @@ I know our friendship will never end.</p>
       <script type="text/javascript">
          $(document).ready(function() {
          /*
-         	var defaults = {
-         	containerID: 'toTop', // fading element id
-         	containerHoverID: 'toTopHover', // fading element hover id
-         	scrollSpeed: 1200,
-         	easingType: 'linear' 
-         	};
-         */								
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear' 
+            };
+         */                      
          $().UItoTop({ easingType: 'easeOutQuart' });
          });
       </script>
       <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
       <!-- //smooth scrolling -->
-
-     
-
-<script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
-
-    <script src="js/index.js"></script>
+      <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
+      <script src="js/index.js"></script>
    </body>
 </html>
